@@ -1,0 +1,61 @@
+html, body { margin: 0; padding: 0; } 
+@font-face {
+    font-family: TabacSans;
+    src: url(TabacSans.ttf);
+}
+@font-face {
+    font-family: GillSans;
+    src: url(gillsans/Gill\ Sans\ Light.otf);
+}
+body {
+    background-color: rgb(27, 27, 27);
+    font-family: TabacSans;
+}
+h1 {
+    text-align: center;
+    color: rgb(255, 0, 212);
+}
+a {
+    color: rgb(161, 255, 255);
+}
+img {
+    width: 350px;
+    padding-top: 20px; 
+    padding-right: 30px;
+    margin: auto;
+}
+.banner {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1em;
+    font-size: 1.2vw;
+    background-color: black;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-color: rgb(89, 0, 0);
+}
+.heading {
+    margin: auto;
+    width: 100%;
+    border-color: aqua;
+    font-size: 2.5vw;
+}
+.projectSummary {
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-color: rgb(18, 154, 120);
+    display: grid;
+    grid-template-columns: 1fr 2.5fr;
+    color: white;
+    height: auto;
+    padding: 15px;
+    padding-top: 0;
+    font-family: GillSans;
+}
+.projectDescription {
+    margin: 2%;
+    font-family: GillSans;
+    color: white;
+    line-height: 150%;
+}
