@@ -67,3 +67,12 @@ img {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
+.mainPage {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.mainPageItem {
+    border-style: solid;
+    border-color: rgb(0, 213, 46);
+    background-color: rgb(15, 11, 65);
+}
