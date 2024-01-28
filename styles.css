@@ -4,8 +4,12 @@ html, body { margin: 0; padding: 0; }
     src: url(TabacSans.ttf);
 }
 @font-face {
-    font-family: GillSans;
+    font-family: GillSansLight;
     src: url(gillsans/Gill\ Sans\ Light.otf);
+}
+@font-face {
+    font-family: GillSansLightItalic;
+    src: url(gillsans/Gill\ Sans\ Light\ Italic.otf);
 }
 body {
     background-color: rgb(27, 27, 27);
@@ -18,6 +22,12 @@ h1 {
 h2 {
     text-align: center;
     color: rgb(0, 255, 123);
+}
+h3 {
+    text-align: center;
+    color: rgb(179, 179, 179);
+    font-family: GillSansLightItalic;
+    margin: 2%;
 }
 a {
     color: rgb(161, 255, 255);
@@ -55,11 +65,11 @@ img {
     height: auto;
     padding: 15px;
     padding-top: 0;
-    font-family: GillSans;
+    font-family: GillSansLight;
 }
 .projectDescription {
     margin: 2%;
-    font-family: GillSans;
+    font-family: GillSansLight;
     color: white;
     line-height: 150%;
 }
@@ -70,9 +80,27 @@ img {
 .mainPage {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
 }
 .mainPageItem {
     border-style: solid;
     border-color: rgb(0, 213, 46);
+    border-width: 1px;
     background-color: rgb(15, 11, 65);
+}
+.profileContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.profile {
+    border-style: solid;
+    border-color: rgb(0, 213, 46);
+    border-width: 1px;
+    background-color: rgb(22, 17, 75);
+    color: white;
+    height: auto;
+    text-align: center;
+    margin: 2%;
+    padding: 2%;
+    line-height: 150%;
 }
